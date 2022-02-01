@@ -115,8 +115,8 @@ export const SceneFileInfoPanel: React.FC<ISceneFileInfoPanelProps> = (
       />
       <URLField
         id="path"
-        url={`file://${props.scene.path}`}
-        value={`file://${props.scene.path}`}
+        url={`${props.scene.path}`}
+        value={`${props.scene.path}`}
         truncate
       />
       <URLField
